@@ -31,7 +31,7 @@ html {
 }
 
 .hero img {
-  width: 100%;
+  width: 30vw;
   height: auto;
   display: block;
   max-height: 85vh; /* Prevent image from being too tall on mobile */
@@ -384,12 +384,11 @@ a.dotaznik-odkaz {
     padding: 0.3rem 0.5rem; /* Smaller touch targets */
   }
   
-  .hero {
+  .hero{
     min-height: 40vh;
   }
-  
-  
 
+ 
   
   .gallery-grid {
     grid-template-columns: 1fr; /* Single column on very small screens */
