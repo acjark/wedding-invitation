@@ -355,6 +355,11 @@ a.dotaznik-odkaz {
   min-width: 250px;
 }
 
+.start-button{
+  margin-left: 70px;
+  margin-top: 0px;
+}
+
 /* Responsive Design - Enhanced Breakpoints */
 @media (max-width: 768px) {
   body {
