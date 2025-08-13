@@ -420,4 +420,9 @@ a, button, input[type="submit"], input[type="button"] {
   input, select, textarea {
     font-size: 16px; /* Prevent iOS zoom */
   }
+
+}
+
+.couzprinaseji{
+  margin-left: 440px;
 }
