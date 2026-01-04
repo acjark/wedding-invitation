@@ -420,9 +420,74 @@ a, button, input[type="submit"], input[type="button"] {
   input, select, textarea {
     font-size: 16px; /* Prevent iOS zoom */
   }
-
 }
 
 .couzprinaseji{
   margin-left: 440px;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lightbox.hidden {
+  display: none;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox .nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.lightbox .prev {
+  left: 20px;
+}
+
+.lightbox .next {
+  right: 20px;
+}
+
+.lightbox .download {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 1px solid white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.lightbox .download:hover {
+  background: white;
+  color: black;
 }
